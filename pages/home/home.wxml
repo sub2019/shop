@@ -38,7 +38,7 @@
 
   <!-- 签到 -->
   <navigator class="banner" url="/pages/user_sgin/user_sgin">
-    <image class="" src="/imgs/img/ad.jpg"></image>
+    <image class="" src="https://ltx.qmit.cn/images/ad.jpg"></image>
   </navigator>
 
   <!-- 优质好货 -->
