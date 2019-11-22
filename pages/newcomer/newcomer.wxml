@@ -1,0 +1,72 @@
+<!--logs.wxml-->
+<view class="container study">
+  <!-- 列表 -->
+  <view class="list">
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <view class="list-bottom"><text>没有更多了</text></view>
+  </view>
+</view>

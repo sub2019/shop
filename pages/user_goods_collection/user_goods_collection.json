@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "recommend": "/components/recommend/index",
+    "authorize": "/components/authorize/authorize"
+  },
+  "navigationBarTitleText": "我的收藏"
+}

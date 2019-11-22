@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+
+  },
+  "navigationBarTitleText": "签到",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#e93323"
+}

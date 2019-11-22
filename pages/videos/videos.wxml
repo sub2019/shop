@@ -1,0 +1,45 @@
+<!-- 视频教程页面-->
+<view class="container videos">
+  <!-- 列表 -->
+  <view class="list">
+    <navigator class="item" url="" open-type="navigate">
+      <view class="title">
+        <text class="top">顶置</text>
+        <text>2分钟了解 微信商城APP</text>
+      </view>
+      <view class="picture">
+        <view class="icon">
+          <van-icon name="play-circle" />
+        </view>
+        <image class="" src="/imgs/img/p1.jpg" mode="scaleToFill"></image>
+      </view>
+      <view class="time item-bottom">
+        <van-icon name="clock-o"/> 2019-09-23
+      </view>
+      <view class="read item-bottom fr">
+        <van-icon name="eye-o" /> 216
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="title">
+        <text class="top">顶置</text>
+        <text>2分钟了解 微信商城APP</text>
+      </view>
+      <view class="picture">
+        <view class="icon">
+          <van-icon name="play-circle" />
+        </view>
+        <image class="" src="/imgs/img/p1.jpg" mode="scaleToFill"></image>
+      </view>
+      <view class="time item-bottom">
+        <van-icon name="clock-o"/> 2019-09-23
+      </view>
+      <view class="read item-bottom fr">
+        <van-icon name="eye-o" /> 216
+      </view>
+    </navigator>
+
+    <view class="list-bottom"><text>没有更多了</text></view>
+  </view>
+</view>

@@ -1,0 +1,41 @@
+.realname .upload {
+  margin: 30rpx 30rpx 60rpx;
+}
+.realname .upload .item {
+  background-color: #fff;
+  border-radius: 10rpx;
+  width: 330rpx;
+  text-align: center;
+  display: inline-block;
+}
+.realname .upload .item1 {
+  margin-right: 30rpx;
+}
+.realname .upload .item .picture {
+  background-color: #ccc;
+  width: 300rpx;
+  height: 207rpx;
+  margin-bottom: 40rpx;
+  margin: 15rpx;
+}
+.realname .upload .item image {
+  width: 100%;
+  height: 100%;
+}
+.realname .bd button {
+  font-size: 30rpx;
+  color: #4F77AB;
+  border-top: 1rpx solid #eee;
+  border-radius: 0rpx 0rpx 10rpx 10rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: 50rpx;
+}
+
+.realname .request {
+  margin: 30rpx;
+}
+.realname .request image {
+  width: 690rpx;
+  height: 400rpx;
+}

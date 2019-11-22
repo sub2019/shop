@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "productConSwiper": "/components/productConSwiper/index"
+  },
+  "navigationBarTitleText": "商品详情"
+}

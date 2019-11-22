@@ -1,0 +1,109 @@
+<!--logs.wxml-->
+<view class="container study">
+  <!-- 轮播图 -->
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{banner_list[0].banner}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item.pic_url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <!-- 导航 -->
+  <view class="nav">
+    <navigator class="item" url="/pages/videos/videos" open-type="navigate">
+      <view class="box"><text class="text">视频教程</text></view>
+    </navigator>
+    <navigator class="item" url="/pages/newcomer/newcomer" open-type="navigate">
+      <view class="box"><text class="text">新手必看</text></view>
+    </navigator>
+    <view class="item"><view class="box"><text class="text">经验分享</text></view></view>
+    <view class="item"><view class="box"><text class="text">高手进阶</text></view></view>
+    <view class="item"><view class="box"><text class="text">平台规则</text></view></view>
+    <view class="item"><view class="box"><text class="text">素材中心</text></view></view>
+  </view>
+
+  <!-- 列表 -->
+  <view class="list">
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item" url="" open-type="navigate">
+      <view class="picture">
+        <image class="" src="" mode="scaleToFill"></image>
+      </view>
+      <view class="text">
+        <view class="hd"><text>新人推广的秘籍 (一) : 打造让人记住的朋友圈</text></view>
+        <view class="bd">
+          <view class="time"><van-icon name="clock-o" /> 2019-10-11</view>
+          <view class="read fr"><van-icon name="eye-o" /> 91</view>
+        </view>
+      </view>
+    </navigator>
+
+    <view class="list-bottom"><text>没有更多了</text></view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<!-- 实名认证 -->
+<view class="container realname">
+  <!-- 上传 -->
+  <view class="upload">
+    <view class="item item1">
+      <view class="picture">
+        <image class="" src="/imgs/img/zheng.png" mode="scaleToFill"></image>
+      </view>
+      <view class="bd"><button>上传人像面</button></view>
+    </view>
+    <view class="item">
+      <view class="picture">
+        <image class="" src="/imgs/img/fan.png" mode="scaleToFill"></image>
+      </view>
+      <view class="bd"><button>上传国徽面</button></view>
+    </view>
+  </view>
+
+  <!-- 要求 -->
+  <view class="request">
+    <image class="" src="/imgs/img/request.png" mode="scaleToFill"></image>
+  </view>
+</view>

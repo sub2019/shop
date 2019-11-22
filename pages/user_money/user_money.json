@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "authorize": "/components/authorize/authorize",
+    "recommend": "/components/recommend/index"
+  },
+  "navigationBarTitleText": "我的账户"
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "recommend": "/components/recommend/index"
+  },
+  "navigationBarBackgroundColor": "#e93323",
+  "navigationBarTitleText": "商品列表"
+}

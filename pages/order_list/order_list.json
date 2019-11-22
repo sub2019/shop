@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "authorize": "/components/authorize/authorize",
+    "payment":"/components/payment/index"
+  },
+  "navigationBarTitleText": "我的订单",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#e93323"
+}

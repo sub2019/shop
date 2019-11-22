@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/order_confirm/index",
+    "pages/order_list/order_list",
+    "pages/order_details/index",
+    "pages/goods_comment_con/index",
+    "pages/goods_logistics/index",
+    "pages/user/user",
+    "pages/cart/cart",
+    "pages/category/category",
+    "pages/goods_list/goods_list",
+    "pages/goods_details/goods_details",
+    "pages/user_sgin/user_sgin",
+    "pages/user_integral/user_integral",
+    "pages/user_get_coupon/user_get_coupon",
+    "pages/user_phone/user_phone",
+    "pages/user_coupon/user_coupon",
+    "pages/user_goods_collection/user_goods_collection",
+    "pages/user_address/user_address",
+    "pages/user_address_list/user_address_list",
+    "pages/user_vip/user_vip",
+    "pages/user_info/user_info",
+    "pages/user_bill/index",
+    "pages/user_payment/index",
+    "pages/user_money/user_money",
+    "pages/user_spread_user/user_spread_user",
+    "pages/user_cash/index",
+    "pages/user_spread_money/index",
+    "pages/user_spread_code/index",
+    "pages/promoter_list/index",
+    "pages/promoter_order/index",
+    "pages/study/study",
+    "pages/videos/videos",
+    "pages/newcomer/newcomer",
+    "pages/realname/realname",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信商城",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "imgs/toolbar/1-001.png",
+        "selectedIconPath": "imgs/toolbar/1-002.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "imgs/toolbar/2-001.png",
+        "selectedIconPath": "imgs/toolbar/2-002.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "imgs/toolbar/3-001.png",
+        "selectedIconPath": "imgs/toolbar/3-002.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "imgs/toolbar/4-001.png",
+        "selectedIconPath": "imgs/toolbar/4-002.png",
+        "text": "我的"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "selectedColor": "#AB956D",
+    "color": "#989898",
+    "borderStyle": "black",
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-card": "vant-weapp/card",
+    "van-submit-bar": "vant-weapp/submit-bar",
+    "van-row": "vant-weapp/row",
+    "van-col": "vant-weapp/col",
+    "van-icon": "vant-weapp/icon",
+    "van-tree-select": "vant-weapp/tree-select"
+  }
+}

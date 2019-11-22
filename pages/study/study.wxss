@@ -1,0 +1,74 @@
+/*轮播图*/
+.study .slide-image {
+  display: block;
+  height: 150px;
+  width: 100%
+}
+
+/*导航*/
+.study .nav {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  padding: 10rpx 0rpx;
+}
+.study .nav .item {
+  width: 250rpx;
+  display: inline-block;
+  color: #fff;
+  padding: 20rpx 20rpx;
+  box-sizing: border-box;
+}
+.study .nav .item .box {
+  background-color: rgba(0, 0, 0, .4);
+  text-align: center;
+  padding: 20rpx;
+  border-radius: 10rpx;
+}
+
+/*列表*/
+.study .list {
+  margin: 14rpx;
+}
+.study .list .item {
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  display: flex;
+}
+.study .list .item .picture {
+  width: 240rpx;
+  height: 150rpx;
+  background-color: #ccc;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+}
+.study .list .item .picture image {
+  width: 100%;
+  height: 100%;
+}
+.study .list .item .text {
+  height: 155rpx;
+  position: relative;
+}
+.study .list .item .hd {
+  font-weight: 700;
+  font-size: 30rpx;
+}
+.study .list .item .bd {
+  color: #999;
+}
+.study .list .item .time {
+  position: absolute;
+  bottom: 0;
+}
+.study .list .item .read {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.study .list .list-bottom {
+  text-align: center;
+  color: #999;
+  margin-bottom: 20rpx;
+}
